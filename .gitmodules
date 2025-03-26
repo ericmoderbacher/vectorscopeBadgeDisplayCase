@@ -1,0 +1,3 @@
+[submodule "supercon-2023-badge-enclosure"]
+	path = supercon-2023-badge-enclosure
+	url = https://github.com/ericmoderbacher/supercon-2023-badge-enclosure.git
