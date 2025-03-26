@@ -1,0 +1,2 @@
+import(file =  superconvectorscopebadge.stl);
+
