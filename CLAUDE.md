@@ -37,15 +37,10 @@ git submodule update --init --recursive
 
 ## Current state & next step
 
-- Uncommitted: [`vectorScopeBadgeDisplayCase.scad`](vectorScopeBadgeDisplayCase.scad) has a 1-line
-  edit (`import(...)` → `projection(cut = true) import("...", convexity=3)`) — recovering the badge
-  outline instead of importing the raw solid. Also an untracked `.DS_Store` (cruft; do not commit).
+- The model so far is a single line: `projection(cut = true) import(...)` recovers the badge outline
+  from `superconvectorscopebadge.stl` instead of importing the raw solid.
 - Open design decision: **stand vs. enclosing case** — decide the goal, then build the case body in
   OpenSCAD from the badge outline (e.g. `linear_extrude` of the projected profile).
-- ⚠️ **2 local commits are not pushed.** `origin` is configured
-  (`github.com/ericmoderbacher/vectorscopeBadgeDisplayCase`) and reachable, but its `main` is still at
-  the initial commit — the two follow-on commits exist only on this machine, so that work is
-  effectively unbacked. Push to the (private) remote to back it up.
 
 ## Fleet context
 
