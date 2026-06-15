@@ -1,0 +1,5 @@
+.DS_Store
+
+# OpenSCAD render output
+vectorScopeBadgeDisplayCase.stl
+*.csg
