@@ -44,9 +44,9 @@ git submodule update --init --recursive
 
 ## Fleet context
 
-Part of Eric Moderbacher's MOSS fleet. Conventions:
+Part of Eric Moderbacher's Moders ecosystem. Conventions:
 
 - **R1** — deps are git submodules of personal forks, **never** package managers
   (`supercon-2023-badge-enclosure` follows this).
 - **R5** — each repo self-describes via a `capabilities.toml`; this repo does **not** have one yet.
-- Fleet spine: `modersModel` / `modersOperandi` / `moss`.
+- Fleet spine: `modersModel` / `modersOperandi`.
